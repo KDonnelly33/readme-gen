@@ -4,7 +4,7 @@ const inquirer = require('inquirer');
 // include fs
 const fs = require('fs');
 // include generateMarkdown
-// const markDown = require('./utils/generateMarkdown.js');
+const markDown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -72,7 +72,12 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) 
+// function writeToFile(fileName, data) {
+//     // use fs to write file to README.md
+//     fs.writeFile(fileName, data, (err) =>
+//     err ? console.error(err) : console.log('Success!'))
+// }
+
 
 
 // TODO: Create a function to initialize app
@@ -85,6 +90,7 @@ function init() {
         err ? console.error(err) : console.log('Success!'))
     })
 }
+
 
 // Function call to initialize app
 init();
