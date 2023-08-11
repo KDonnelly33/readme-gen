@@ -30,7 +30,8 @@ function renderLicenseSection(license) {
     let licenseSection = '';
     if (license !== 'None') {
         licenseSection = `## License
-This project uses the ${license} license.`;
+This project uses the ${license} license.
+For more information, visit ${renderLicenseLink(license)}.`;
     }
     return licenseSection;
     
@@ -40,10 +41,7 @@ This project uses the ${license} license.`;
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-![License Badge](${renderLicenseBadge(data.license)})
-${renderLicenseLink(data.license)}
-
+  return `# ${data.title} ![License Badge](${renderLicenseBadge(data.license)})
 ## Description
 ${data.description}
 
@@ -68,7 +66,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-If you have any questions, please contact me at ${data.email}. You can also visit my [GitHub](${data.github}) to view more of my work.
+If you have any questions, please contact me at [email](mailto:${data.email}). You can also visit my [GitHub profile](https://github.com/${data.github}) to view more of my work.
 
 ${renderLicenseSection(data.license)}`;
 } 

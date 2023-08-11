@@ -73,10 +73,6 @@ const questions = [
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {
-//     // use fs to write file to README.md
-//     fs.writeFile(fileName, data, (err) =>
-//     err ? console.error(err) : console.log('Success!'))
-// }
 
 
 
@@ -85,8 +81,8 @@ function init() {
     // use inquirer to prompt user for input
     inquirer.prompt(questions)
     .then((data) => {
-        // use fs to write file to README.md
-        fs.writeFile('README.md', markDown(data), (err) =>
+        // use fs to write file to READMEtemplate.md
+        fs.writeFile('READMEtemplate.md', markDown(data), (err) =>
         err ? console.error(err) : console.log('Success!'))
     })
 }
