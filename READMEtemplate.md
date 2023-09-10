@@ -1,6 +1,6 @@
-# Readme Genorator ![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Employ-Tracker ![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
-This it the description
+This command line application allows the user to view and edit a database needed for a business. It has the ability to track departments, roles, and employees.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,16 +11,16 @@ This it the description
 - [License](#license)
 
 ## Installation
-installation
+To run this program you will need inquirer and Mysql2.
 
 ## Usage
-usage info here
+
 
 ## Contributing
-open source
+
 
 ## Tests
-instructions
+
 
 ## Questions
 If you have any questions, please contact me at [email](mailto:Kevin.donnelly3@gmail.com). You can also visit my [GitHub profile](https://github.com/Kdonnelly33) to view more of my work.
