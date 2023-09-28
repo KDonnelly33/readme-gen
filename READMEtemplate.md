@@ -1,6 +1,6 @@
-# Employ-Tracker ![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Tech Blog ![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
-This command line application allows the user to view and edit a database needed for a business. It has the ability to track departments, roles, and employees.
+This project is a blog post site in which users can create accouts, make blogpost and comment on the blogpost. Users from their home dashboard can edit and delete post.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,7 +11,7 @@ This command line application allows the user to view and edit a database needed
 - [License](#license)
 
 ## Installation
-To run this program you will need inquirer and Mysql2.
+Just visit https://safe-stream-61726-216214b7671d.herokuapp.com/
 
 ## Usage
 
